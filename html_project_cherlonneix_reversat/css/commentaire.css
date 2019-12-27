@@ -30,6 +30,10 @@
 	position: relative;
 }
 
+#envoyer-commentaire input{
+	max-width: 10em;
+}
+
 textarea#commentaire{
 	font-size: 1.4em;
 	min-width: 99%;
@@ -58,7 +62,7 @@ textarea#commentaire{
 	vertical-align: middle;
 }
 
-#user0:target, #user1:target, #user2:target{
+#user0:target, #user1:target, #user2:target, #user3:target, #user4:target, #user5:target, #user6:target, #user7:target{
 	border-bottom: 0.2em solid #07F;
 	border-radius: 0.1em;
 }
