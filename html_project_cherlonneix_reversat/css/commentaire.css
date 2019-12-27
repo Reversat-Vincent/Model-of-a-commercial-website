@@ -1,4 +1,4 @@
-.reponse{
+.commentaires{
 	border-left: 0.4em solid #07F;
 	margin: 1.5em 0em;
 }
@@ -26,6 +26,10 @@
 	vertical-align: middle;
 }
 
+#envoyer-commentaire{
+	position: relative;
+}
+
 textarea#commentaire{
 	font-size: 1.4em;
 	min-width: 99%;
@@ -40,4 +44,7 @@ textarea#commentaire{
 	padding: 0.5em 1em;
 	border: 0.2em solid #AAA;
 	border-radius: 0.5em;
+	position: absolute;
+	right: 0.5em;
+	bottom: 0.5em;
 }
