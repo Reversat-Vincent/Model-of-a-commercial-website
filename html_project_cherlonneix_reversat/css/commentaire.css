@@ -48,3 +48,17 @@ textarea#commentaire{
 	right: 0.5em;
 	bottom: 0.5em;
 }
+
+#envoyer:hover{
+	color: black;
+}
+
+.iconeCommentaire{
+	height: 3em;
+	vertical-align: middle;
+}
+
+#user0:target, #user1:target, #user2:target{
+	border-bottom: 0.2em solid #07F;
+	border-radius: 0.1em;
+}
