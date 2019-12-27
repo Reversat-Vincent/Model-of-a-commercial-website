@@ -58,6 +58,7 @@ header.ban #rechercheInput{
 
 nav#menu-mobile > nav:hover{
 	background-color: white;
+	padding: 0.3em;
 }
 
 .sous-menu, .sous-menu1{
