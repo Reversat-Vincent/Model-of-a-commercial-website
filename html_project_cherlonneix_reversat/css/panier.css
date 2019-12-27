@@ -25,6 +25,10 @@
 	text-align: left;
 }
 
+fieldset{
+	min-width: 0em;
+}
+
 #coord div{
 	margin: 0.7em 0.2em;
 	display: flex;
@@ -39,6 +43,7 @@
 
 #coord input{
 	flex: 1;
+	min-width: 0em;
 }
 
 .block-liste table img{

@@ -1,4 +1,4 @@
-.block-base .block-base{
+.block-base section{
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -6,12 +6,17 @@
 	margin-top: 1em;
 }
 
-.block-base .block-base div{
+.block-base div{
 	text-align: center;
 	border: 0.5em solid #AAA;
 	border-radius: 1em;
+	margin-bottom: 1em;
 }
 
-.block-base .block-base div img{
+.block-base div img{
 	border-bottom: 0.5em solid #AAA;
+}
+
+.block-base div p{
+	margin: 0.3em 0em;
 }

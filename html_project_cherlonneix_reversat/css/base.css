@@ -175,7 +175,7 @@ article.block-base p{
 	font-weight: 800;
 }
 
-#filtre{
+#filtre p{
 	position: relative;
 	display: flex;
 	flex-direction: row;
@@ -185,11 +185,11 @@ article.block-base p{
 }
 
 #filtre > form{
-	margin-right: 1em;
+	margin-right: 0.3em;
 }
 
 #filtre a{
-	font-size: 1.5em;
+	font-size: 0.8em;
 }
 
 .filtre{
@@ -216,7 +216,7 @@ article.block-base p{
 		text-align: center;
 	}
 
-	#espacement{
+	#espacement, #espacement-acceuil{
 		margin-top: 2em;
 		display: flex;
 		flex-direction: column;
