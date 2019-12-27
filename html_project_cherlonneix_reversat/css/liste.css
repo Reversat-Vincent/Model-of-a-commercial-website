@@ -1,9 +1,3 @@
-.conteneur_tableau{
-	max-width: 100% ;
-	padding: 0.5em 0 ;
-	overflow-x: auto ;
-}
-
 .block-liste{
 	font-size: 0.9em ;
 	background-color: #f5f5f5;
@@ -11,7 +5,7 @@
 	width: 100%;
 }
 
-.block-liste nav a{
+.block-liste a{
 	display: flex;
 	align-items: center;
 	padding: 0.4em 0.6em;

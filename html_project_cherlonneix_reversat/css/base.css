@@ -40,6 +40,7 @@ main.cadre{
 	padding: 0.5em 1em;
 	border: 0.2em solid #AAA;
 	border-radius: 0.5em;
+	font-size: 0.3em;
 }
 
 .centre-page{
@@ -159,10 +160,6 @@ article.block-base p{
 
 .texte-blanc{
 	color: white;
-}
-
-.texte-gris{
-	color: Dimgray;
 }
 
 .bold{

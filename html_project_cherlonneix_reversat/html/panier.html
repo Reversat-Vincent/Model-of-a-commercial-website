@@ -2,8 +2,7 @@
 
 <!--
 
-Des icones et des morceaux d'html/css ont été empruntés à https://pokestrat.io/
-pour leur joli menu et ésthetisme ainsi que pour la page d'acceil.
+L'aspect graphique générale provient de https://pokestrat.io/
 
 -->
 
@@ -42,31 +41,31 @@ pour leur joli menu et ésthetisme ainsi que pour la page d'acceil.
 
 			<nav class="recherche">
 				<input type="text" name="rechercher" id="rechercheInput" placeholder="Rechercher">
-				<a href="resultat.html" id="loupe"><img src="../image/icone/filtre.png" class="icone"></a>
+				<a href="resultat.html" id="loupe"><img src="../image/icone/filtre.png" class="icone" alt="GO"></a>
 			</nav>
-			<a href="autre.html" id="panier"><img src="../image/icone/panier.png" class="icone" alt=""></a>
+			<a href="panier.html" id="panier"><img src="../image/icone/panier.png" class="icone" alt="icone"></a>
 		</nav>
-
-		<nav id="fond-menu" id="close">
+		<nav id="close"></nav>
+		<nav id="fond-menu">
 			<nav id="menu-mobile">
 
-				<nav id="closemenu"><a href="#close"><img src="../image/icone/closemenu.png" class="icone" alt=""></a></nav>
+				<nav id="closemenu"><a href="#close"><img src="../image/icone/closemenu.png" class="icone" alt="icone"></a></nav>
 
-				<nav><a href="index.html"><img src="../image/icone/acceuil.png" class="icone" alt=""> Acceuil</a></nav>
+				<nav><a href="../index.html"><img src="../image/icone/acceuil.png" class="icone" alt="icone"> Acceuil</a></nav>
 
 				<nav class="sous-menu1">
-					<a href="autre.html"><img src="../image/icone/licence.png" class="icone" alt=""> Articles</a>
+					<a href="autre.html"><img src="../image/icone/licence.png" class="icone" alt="icone"> Articles</a>
 					<input type="checkbox" name="licence" class="button-article">
 					<nav class="deroule">
-						<a href="autre.html"><nav class="sous-menu">
-							<a href="autre.html"><img src="../image/icone/liste.png" class="icone" alt=""> Nintendo Switch</a>
+						<nav class="sous-menu">
+							<a href="autre.html"><img src="../image/icone/liste.png" class="icone" alt="icone"> Nintendo Switch</a>
 							<input type="checkbox" name="article" class="button-article">
 							<nav class="deroule">
 								<a href="article/articleFETH.html"><nav class="effet-hover">Three Houses</nav></a>
 							</nav>
-						</nav></a>
-						<a href="autre.html"><nav class="sous-menu">
-							<a href="autre.html"><img src="../image/icone/liste.png" class="icone" alt=""> Nintendo 3DS</a>
+						</nav>
+						<nav class="sous-menu">
+							<a href="autre.html"><img src="../image/icone/liste.png" class="icone" alt="icone"> Nintendo 3DS</a>
 							<input type="checkbox" name="article" class="button-article">
 							<nav class="deroule">
 								<a href="autre.html"><nav class="effet-hover">Echoes : Shadows of Valentia</nav></a>
@@ -74,21 +73,21 @@ pour leur joli menu et ésthetisme ainsi que pour la page d'acceil.
 								<a href="autre.html"><nav class="effet-hover">Fates : Héritage</nav></a>
 								<a href="autre.html"><nav class="effet-hover">Awakening</nav></a>
 							</nav>
-						</nav></a>
-						<a href="autre.html"><nav class="sous-menu">
-							<a href="autre.html"><img src="../image/icone/liste.png" class="icone" alt=""> Nintendo DS</a>
+						</nav>
+						<nav class="sous-menu">
+							<a href="autre.html"><img src="../image/icone/liste.png" class="icone" alt="icone"> Nintendo DS</a>
 							<input type="checkbox" name="article" class="button-article">
 							<nav class="deroule">
 								<a href="autre.html"><nav class="effet-hover">Shin Monshō no Nazo</nav></a>
 								<a href="autre.html"><nav class="effet-hover">Shadow Dragon</nav></a>
 							</nav>
-						</nav></a>
+						</nav>
 					</nav>
 				</nav>
 
 
-				<nav><a href="qui.html"><img src="../image/icone/qui.png" class="icone" alt=""> Qui somme nous ?</a></nav>
-				<nav><a href="autre.html"><img src="../image/icone/contact.png" class="icone" alt=""> Contact</a></nav>
+				<nav><a href="qui.html"><img src="../image/icone/qui.png" class="icone" alt="icone"> Qui somme nous ?</a></nav>
+				<nav><a href="autre.html"><img src="../image/icone/contact.png" class="icone" alt="icone"> Contact</a></nav>
 
 			</nav>
 		</nav>
@@ -98,9 +97,11 @@ pour leur joli menu et ésthetisme ainsi que pour la page d'acceil.
 		<h1 id="titre-page">VAPEU® - Des jeux pour les stratèges</h1>
 
 		<section id="espacement">
+			<h2 class="hidde">Panier</h2>
 			<article class="part">
-				<h2 class="bold"><img src="../image/icone/panier.png" class="icone" alt=""> Contenu du panier</h2>
+				<h3 class="bold"><img src="../image/icone/panier.png" class="icone" alt="icone"> Contenu du panier</h3>
 				<section class="block-liste">
+					<h4 class="hidde">Tableau panier</h4>
 					<table id="panier-table">
 						<tbody>
 							<tr class="ligne0">
@@ -109,17 +110,17 @@ pour leur joli menu et ésthetisme ainsi que pour la page d'acceil.
 								<td><p>Prix</p></td>
 							</tr>
 							<tr class="ligne1">
-								<td class="td-jaquette"><img src="../image/Jaquette_FETH.jpg" class="icone2" alt=""></td>
+								<td class="td-jaquette"><img src="../image/Jaquette_FETH.jpg" class="icone2" alt="Jaquette"></td>
 								<td><p>Fire Emblem : Three Houses</p></td>
 								<td><p>50 €</p></td>
 							</tr>
 							<tr class="ligne2">
-								<td class="td-jaquette"><img src="../image/Jaquette_FEA.png" class="icone2" alt=""></td>
+								<td class="td-jaquette"><img src="../image/Jaquette_FEA.png" class="icone2" alt="Jaquette"></td>
 								<td><p>Fire Emblem Awakening</p></td>
 								<td><p>40 €</p></td>
 							</tr>
 							<tr class="ligne1">
-								<td class="td-jaquette"><img src="../image/Jaquette_FESMN.jpg" class="icone2" alt=""></td>
+								<td class="td-jaquette"><img src="../image/Jaquette_FESMN.jpg" class="icone2" alt="Jaquette"></td>
 								<td><p>Fire Emblem : Shin Monshō no Nazo</p></td>
 								<td><p>15 €</p></td>
 							</tr>
@@ -133,19 +134,21 @@ pour leur joli menu et ésthetisme ainsi que pour la page d'acceil.
 				</section>
 			</article>
 			<article class="part">
+				<h3 class="bold"><img src="../image/icone/contact.png" class="icone" alt="icone"> Coordonnées de livraison</h3>
 				<section id="coord" class="block-base">
+					<h4 class="hidde">Champ des coordonnées</h4>
 					<form>
 						<fieldset>
-							<legend>Coordonnées de livraison</legend>
+							<legend>Veuillez saisir les coordonnées de livraison avant de valider la commande</legend>
 
-							<section><label for="nom">Nom</label><input type="text" name="nom"/></section>
-							<section><label for="prenom">Prénom</label><input type="text" name="prenom"/></section>
-							<section><label for="adresse">Adresse</label><input type="text" name="adresse"/></section>
-							<section><label for="tel">Téléphone</label><input type="tel" name="telephone"/></section>
-							<section><label for="cb">Code CB</label><input type="password" name="cb"/></section>
+							<div><label>Nom</label><input type="text" name="nom"/></div>
+							<div><label>Prénom</label><input type="text" name="prenom"/></div>
+							<div><label>Adresse</label><input type="text" name="adresse"/></div>
+							<div><label>Téléphone</label><input type="tel" name="telephone"/></div>
+							<div><label>Code CB</label><input type="password" name="cb"/></div>
 						</fieldset>
 					</form>
-					<a href="valider.html">Valider la commande<img src="../image/icone/valider.png" class="icone"></a>
+					<a href="valider.html">Valider la commande<img src="../image/icone/valider.png" class="icone" alt="icone"></a>
 				</section>
 			</article>
 		</section>

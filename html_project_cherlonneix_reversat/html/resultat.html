@@ -2,8 +2,7 @@
 
 <!--
 
-Des icones et des morceaux d'html/css ont été empruntés à https://pokestrat.io/
-pour leur joli menu et ésthetisme ainsi que pour la page d'acceil.
+L'aspect graphique générale provient de https://pokestrat.io/
 
 -->
 
@@ -43,31 +42,31 @@ pour leur joli menu et ésthetisme ainsi que pour la page d'acceil.
 
 			<nav class="recherche">
 				<input type="text" name="rechercher" id="rechercheInput" placeholder="Rechercher">
-				<a href="resultat.html" id="loupe"><img src="../image/icone/filtre.png" class="icone"></a>
+				<a href="resultat.html" id="loupe"><img src="../image/icone/filtre.png" class="icone" alt="GO"></a>
 			</nav>
-			<a href="panier.html" id="panier"><img src="../image/icone/panier.png" class="icone" alt=""></a>
+			<a href="panier.html" id="panier"><img src="../image/icone/panier.png" class="icone" alt="icone"></a>
 		</nav>
-
-		<nav id="fond-menu" id="close">
+		<nav id="close"></nav>
+		<nav id="fond-menu">
 			<nav id="menu-mobile">
 
-				<nav id="closemenu"><a href="#close"><img src="../image/icone/closemenu.png" class="icone" alt=""></a></nav>
+				<nav id="closemenu"><a href="#close"><img src="../image/icone/closemenu.png" class="icone" alt="icone"></a></nav>
 
-				<nav><a href="index.html"><img src="../image/icone/acceuil.png" class="icone" alt=""> Acceuil</a></nav>
+				<nav><a href="../index.html"><img src="../image/icone/acceuil.png" class="icone" alt="icone"> Acceuil</a></nav>
 
 				<nav class="sous-menu1">
-					<a href="autre.html"><img src="../image/icone/licence.png" class="icone" alt=""> Articles</a>
+					<a href="autre.html"><img src="../image/icone/licence.png" class="icone" alt="icone"> Articles</a>
 					<input type="checkbox" name="licence" class="button-article">
 					<nav class="deroule">
-						<a href="autre.html"><nav class="sous-menu">
-							<a href="autre.html"><img src="../image/icone/liste.png" class="icone" alt=""> Nintendo Switch</a>
+						<nav class="sous-menu">
+							<a href="autre.html"><img src="../image/icone/liste.png" class="icone" alt="icone"> Nintendo Switch</a>
 							<input type="checkbox" name="article" class="button-article">
 							<nav class="deroule">
 								<a href="article/articleFETH.html"><nav class="effet-hover">Three Houses</nav></a>
 							</nav>
-						</nav></a>
-						<a href="autre.html"><nav class="sous-menu">
-							<a href="autre.html"><img src="../image/icone/liste.png" class="icone" alt=""> Nintendo 3DS</a>
+						</nav>
+						<nav class="sous-menu">
+							<a href="autre.html"><img src="../image/icone/liste.png" class="icone" alt="icone"> Nintendo 3DS</a>
 							<input type="checkbox" name="article" class="button-article">
 							<nav class="deroule">
 								<a href="autre.html"><nav class="effet-hover">Echoes : Shadows of Valentia</nav></a>
@@ -75,21 +74,21 @@ pour leur joli menu et ésthetisme ainsi que pour la page d'acceil.
 								<a href="autre.html"><nav class="effet-hover">Fates : Héritage</nav></a>
 								<a href="autre.html"><nav class="effet-hover">Awakening</nav></a>
 							</nav>
-						</nav></a>
-						<a href="autre.html"><nav class="sous-menu">
-							<a href="autre.html"><img src="../image/icone/liste.png" class="icone" alt=""> Nintendo DS</a>
+						</nav>
+						<nav class="sous-menu">
+							<a href="autre.html"><img src="../image/icone/liste.png" class="icone" alt="icone"> Nintendo DS</a>
 							<input type="checkbox" name="article" class="button-article">
 							<nav class="deroule">
 								<a href="autre.html"><nav class="effet-hover">Shin Monshō no Nazo</nav></a>
 								<a href="autre.html"><nav class="effet-hover">Shadow Dragon</nav></a>
 							</nav>
-						</nav></a>
+						</nav>
 					</nav>
 				</nav>
 
 
-				<nav><a href="qui.html"><img src="../image/icone/qui.png" class="icone" alt=""> Qui somme nous ?</a></nav>
-				<nav><a href="autre.html"><img src="../image/icone/contact.png" class="icone" alt=""> Contact</a></nav>
+				<nav><a href="qui.html"><img src="../image/icone/qui.png" class="icone" alt="icone"> Qui somme nous ?</a></nav>
+				<nav><a href="autre.html"><img src="../image/icone/contact.png" class="icone" alt="icone"> Contact</a></nav>
 
 			</nav>
 		</nav>
@@ -99,11 +98,13 @@ pour leur joli menu et ésthetisme ainsi que pour la page d'acceil.
 		<h1 id="titre-page">VAPEU® - Des jeux pour les stratèges</h1>
 
 		<section id="espacement">
+			<h2 class="hidde">Resultat</h2>
 			<article class="part">
-				<h2 class="bold"><img src="../image/icone/filtre.png" class="icone" alt=""> Resultat de la recherche</h2>
+				<h3 class="bold"><img src="../image/icone/filtre.png" class="icone" alt="icone"> Resultat de la recherche</h3>
 
 				<section id="filtre">
-					<form><p><label for="pays">Filtre : </label>
+					<h4 class="hidde">Filtre</h4>
+					<form><p><label>Filtre : </label>
 						<select name="console" class="filtre">
 							<option value="tout">Toutes les consoles</option>
 							<option value="switch">Switch</option>
@@ -116,54 +117,62 @@ pour leur joli menu et ésthetisme ainsi que pour la page d'acceil.
 							<option value="sans">Sans promo</option>
 						</select>
 					</p></form>
-					<a href="resultat.html" id="loupe"><img src="../image/icone/maj.png" class="icone" alt="Appliquer"></a>
+					<a href="resultat.html"><img src="../image/icone/maj.png" class="icone" alt="Appliquer"></a>
 				</section>
 
 				<article class="block-liste">
+					<h4 class="hidde">Liste</h4>
 					<section class="ligne1">
+						<h5 class="hidde">Three Houses</h5>
 						<a href="article/articleFETH.html">
-							<img src="../image/Jaquette_FETH.jpg" class="icone2" alt="">
+							<img src="../image/Jaquette_FETH.jpg" class="icone2" alt="Jaquette">
 							<p>Three Houses</p>
-							<section class="mini-score">
-								<section class="mini-score-column" id="mini-score-column1"></section>
-								<section class="mini-score-column" id="mini-score-column2"></section>
-								<section class="mini-score-column" id="mini-score-column3"></section>
-								<section class="mini-score-column" id="mini-score-column4"></section>
-								<section class="mini-score-column" id="mini-score-column5"></section>
-								<p><img src="../image/icone/score.png" class="icone">Score</p>
-							</section>
+							<div class="mini-score">
+								<div class="mini-score-column" id="mini-score-column1"></div>
+								<div class="mini-score-column" id="mini-score-column2"></div>
+								<div class="mini-score-column" id="mini-score-column3"></div>
+								<div class="mini-score-column" id="mini-score-column4"></div>
+								<div class="mini-score-column" id="mini-score-column5"></div>
+								<p><img src="../image/icone/score.png" class="icone" alt="icone">Score</p>
+							</div>
 							<p class="ban-promo">PROMO !!!</p>
 						</a>
 					</section>
 					<section class="ligne2">
+						<h5 class="hidde">Echoes : Shadows of Valentia</h5>
 						<a href="autre.html">
-							<img src="../image/Jaquette_FEE.jpg" class="icone2" alt="">
+							<img src="../image/Jaquette_FEE.jpg" class="icone2" alt="Jaquette">
 							<p>Echoes : Shadows of Valentia</p>
 						</a>
 					</section>
 					<section class="ligne1">
+						<h5 class="hidde">Fates : Conquête</h5>
 						<a href="autre.html">
-							<img src="../image/Jaquette_FEFC.jpg" class="icone2" alt="">
+							<img src="../image/Jaquette_FEFC.jpg" class="icone2" alt="Jaquette">
 							<p>Fates : Conquête</p></a>
 					</section>
 					<section class="ligne2">
+						<h5 class="hidde">Fates : Héritage</h5>
 						<a href="autre.html">
-							<img src="../image/Jaquette_FEFH.jpg" class="icone2" alt="">
+							<img src="../image/Jaquette_FEFH.jpg" class="icone2" alt="Jaquette">
 							<p>Fates : Héritage</p></a>
 					</section>
 					<section class="ligne1">
+						<h5 class="hidde">Awakening</h5>
 						<a href="autre.html">
-							<img src="../image/Jaquette_FEA.png" class="icone2" alt="">
+							<img src="../image/Jaquette_FEA.png" class="icone2" alt="Jaquette">
 							<p>Awakening</p></a>
 					</section>
 					<section class="ligne2">
+						<h5 class="hidde">Shin Monshō no Nazo</h5>
 						<a href="autre.html">
-							<img src="../image/Jaquette_FESMN.jpg" class="icone2" alt="">
+							<img src="../image/Jaquette_FESMN.jpg" class="icone2" alt="Jaquette">
 							<p>Shin Monshō no Nazo</p></a>
 					</section>
 					<section class="ligne1">
+						<h5 class="hidde">Shadow Dragon</h5>
 						<a href="autre.html">
-							<img src="../image/Jaquette_FESD.jpg" class="icone2" alt="">
+							<img src="../image/Jaquette_FESD.jpg" class="icone2" alt="Jaquette">
 							<p>Shadow Dragon</p></a>
 					</section>
 				</article>

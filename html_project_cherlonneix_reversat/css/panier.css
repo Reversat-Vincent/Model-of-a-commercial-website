@@ -25,7 +25,7 @@
 	text-align: left;
 }
 
-#coord section{
+#coord div{
 	margin: 0.7em 0.2em;
 	display: flex;
 	flex-direction: row;
