@@ -1,0 +1,195 @@
+@keyframes lmenu {
+	from {left: -25em;}
+	to {left: 0em;}
+}
+
+nav#close{
+	display: none;
+}
+
+nav#fond-menu{
+	background: linear-gradient(to bottom, rgba(247,247,247,1) 1%,rgba(180,180,180,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#d8d8d8',GradientType=0 );
+	position: fixed;
+	top: 0%;
+	width: 25em;
+	max-width: 100%;
+	height: 100%;
+	text-align: center;
+	z-index: 10;
+	border-right: 1px solid Silver;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	animation-name: lmenu;
+	animation-duration: 0.5s;
+}
+
+nav#top-menu{
+	background-color: #f7f7f7;
+	position: fixed;
+	top: 0%;
+	left: 0%;
+	width: 96%;
+	height: 4em;
+	padding: 0em 0.5em;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 20;
+	padding: 0.2em 2%;
+}
+
+header.ban #rechercheInput{
+	margin: 0;
+	display: block;
+	width: 100%;
+}
+
+#panier{
+	display: inline-block;
+}
+
+#menu-mobile{
+	max-height: 80%;
+	margin: 5em 2em 0em 2em;
+	text-align: left;
+}
+
+nav#menu-mobile > nav:hover{
+	background-color: white;
+}
+
+.sous-menu, .sous-menu1{
+	position: relative;
+}
+
+.button-article:checked ~ .deroule{
+	position: relative;
+	display: block;
+}
+
+.sous-menu1 > .deroule{
+	margin-left: 10px;
+}
+
+.sous-menu1 > .deroule{
+	display: none;
+	background-color: #BBB;
+}
+
+.sous-menu .deroule{
+	display: none;
+	background-color: #CCC;
+	border-left: 5px solid #07F;
+	padding-left: 5px;
+}
+
+.sous-menu .deroule a nav{
+	padding: 3px 0px;
+}
+
+img#logo{
+	height: 3em;
+	width: 3em;
+	margin: 0.7em 0em;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+img.logo-mobile, #bouton-menu-mobile{
+	display: none;
+}
+
+.effet-hover:hover{
+	opacity: 0.6;
+}
+
+input{
+	background-color: White;
+	padding: 0.2em 0.5em;
+	font-size: 1.1em;
+	border: 2px solid Gainsboro;
+	border-radius: 0.3em;
+	box-sizing: border-box; 
+	-webkit-appearance: none;
+}
+
+input#bouton-menu-mobile{
+	background: url("../image/icone/menu.png");
+	height: 3em;
+	width: 3em;
+	background-position: center;
+}
+
+input.button-article{
+	background: url("../image/icone/menu.png");
+	width: 1.4em;
+	height: 1.4em;
+	background-size: 100%;
+	background-position: center;
+	position: absolute;
+	right: 0;
+}
+
+.recherche{
+	width: 85%;
+	margin: 0 auto;
+	position: relative;
+	display: flex;
+}
+
+header.ban #rechercheInput{
+	width: 85%;
+}
+
+#closemenu{
+	display: none;
+}
+
+
+
+@media only screen and (max-width: 900px), (max-height: 550px){
+
+	#fond-menu{
+		display: none;
+	}
+
+	#closemenu{
+		display: block;
+	}
+
+	#bouton-menu-mobile:checked ~ #menu-mobile{
+		display: block;
+	}
+
+	#bouton-menu-mobile{
+		display: inline-block;
+		vertical-align: middle;
+		cursor: pointer;
+		background-position: center;
+	}
+
+	img#logo{
+		display: none;
+	}
+
+	#rechercheInput{
+		display: inline;
+		width: 95%;
+		box-sizing: border-box;
+	}
+
+	.deroule{
+		overflow: hidden;
+		white-space: nowrap;
+	}
+
+	#fond-menu:target{
+		display: block;
+	}
+
+	#close:target + #fond-menu{
+		display: none;
+	}
+}

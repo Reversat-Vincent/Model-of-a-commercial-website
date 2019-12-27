@@ -1,0 +1,37 @@
+.conteneur_tableau{
+	max-width: 100% ;
+	padding: 0.5em 0 ;
+	overflow-x: auto ;
+}
+
+.block-liste{
+	font-size: 0.9em ;
+	background-color: #f5f5f5;
+	border : 1px solid LightGrey;
+	width: 100%;
+}
+
+.block-liste nav a{
+	display: flex;
+	align-items: center;
+	padding: 0.4em 0.6em;
+	border-bottom : 1px solid LightGrey;
+	overflow: hidden;
+	position: relative;
+}
+
+.block-liste img{
+	margin-right: 0.5em;
+}
+
+#tendance img{
+	margin-left: 0.5em;
+}
+
+.ligne1{
+	background-color: #E9E9E9;
+}
+
+.ligne2{
+	background-color: whitesmoke;
+}

@@ -1,0 +1,55 @@
+#panier-table{
+	border-collapse: collapse;
+	width: 100%;
+	border: 0.1em solid #AAA;
+	border-radius: 0.5em;
+}
+
+.ligneT td{
+	white-space: nowrap;
+	border-bottom: none;
+}
+
+.ligneT td:nth-child(2){
+	text-align: right;
+}
+
+#coord{
+	padding: 0.2em;
+	text-align: right;
+	font-size: 1.4em;
+	width: 100%;
+}
+
+#coord form{
+	text-align: left;
+}
+
+#coord section{
+	margin: 0.7em 0.2em;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#coord label{
+	margin-right: 1em;
+	align-self: center;
+}
+
+#coord input{
+	flex: 1;
+}
+
+.block-liste table img{
+	margin-right: 0em;
+}
+
+.td-jaquette{
+	text-align: center;
+}
+
+.ligne0{
+	border-bottom: 0.3em solid #AAA;
+	background-color: whitesmoke;
+}

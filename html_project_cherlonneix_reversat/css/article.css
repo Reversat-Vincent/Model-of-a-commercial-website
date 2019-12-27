@@ -1,0 +1,44 @@
+#desc-generales p{
+	font-size: 2em;
+}
+
+del{
+	font-size: 80%;
+	display: inline-block;
+	transform: rotate(-15deg);
+}
+
+strong{
+	font-size: 160%;
+	font-weight: 500;
+}
+
+#desc-detail{
+	margin-top: 1em;
+	width: 100%;
+	align-self: flex-end;
+}
+
+#desc-detail table{
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#desc-detail td{
+	padding: 0.5em;
+}
+
+#desc-detail td:nth-child(2){
+	text-align: right;
+}
+
+#info-generales{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+#desc-block{
+	font-size: 0.7em;
+}

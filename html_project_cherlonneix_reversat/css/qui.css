@@ -1,0 +1,17 @@
+.block-base .block-base{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-top: 1em;
+}
+
+.block-base .block-base section{
+	text-align: center;
+	border: 0.5em solid #AAA;
+	border-radius: 1em;
+}
+
+.block-base .block-base section img{
+	border-bottom: 0.5em solid #AAA;
+}

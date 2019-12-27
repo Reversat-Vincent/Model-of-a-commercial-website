@@ -1,0 +1,27 @@
+.activite{
+	text-align: right;
+	flex: 1;
+	min-width: 25vw;
+}
+
+.activite-title-less{
+	max-height: 150vh;
+	overflow-y: scroll;
+	padding: 0em 1em;
+}
+
+.activite .block-base{
+	margin: 1.5em 0em;
+}
+
+.annonce-font{
+	font-size: 1.2em;
+}
+
+.activite .block-base h4{
+	font-style: normal;
+	font-weight: 600;
+	font-size: 1.3em;
+	color: Dimgray;
+	margin-top: 0em;
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<!--
+
+Des icones et des morceaux d'html/css ont été empruntés à https://pokestrat.io/
+pour leur joli menu et ésthetisme ainsi que pour la page d'acceil.
+
+-->
+
+<html lang="fr">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<!-- Favicon-->
+<link rel="icon" type="image/png" href="../image/favicon.png">
+
+
+
+<!-- CSS -->
+<link type="text/css" rel="stylesheet" href="../css/menu.css" />
+<link type="text/css" rel="stylesheet" href="../css/base.css" />
+<link type="text/css" rel="stylesheet" href="../css/tableau.css" />
+
+
+
+<title>VAPEU®</title>
+
+
+</head>
+
+<body>
+
+	<header class="ban">
+		<nav id="top-menu">
+			<img src="../image/favicon.png" id="logo" alt="Logo VAPEUR">
+			<a href="#fond-menu"><img src="../image/icone/menu.png" id="bouton-menu-mobile" class="effet-hover" alt="Logo VAPEUR"></a>
+			<!--<input type="checkbox" name="menu_responsive" id="bouton-menu-mobile" class="effet-hover">-->
+
+			<nav class="recherche">
+				<input type="text" name="rechercher" id="rechercheInput" placeholder="Rechercher">
+				<a href="resultat.html" id="loupe"><img src="../image/icone/filtre.png" class="icone"></a>
+			</nav>
+			<a href="panier.html" id="panier"><img src="../image/icone/panier.png" class="icone" alt=""></a>
+		</nav>
+
+		<nav id="fond-menu" id="close">
+			<nav id="menu-mobile">
+
+				<nav id="closemenu"><a href="#close"><img src="../image/icone/closemenu.png" class="icone" alt=""></a></nav>
+
+				<nav><a href="index.html"><img src="../image/icone/acceuil.png" class="icone" alt=""> Acceuil</a></nav>
+
+				<nav class="sous-menu1">
+					<a href="autre.html"><img src="../image/icone/licence.png" class="icone" alt=""> Articles</a>
+					<input type="checkbox" name="licence" class="button-article">
+					<nav class="deroule">
+						<a href="autre.html"><nav class="sous-menu">
+							<a href="autre.html"><img src="../image/icone/liste.png" class="icone" alt=""> Nintendo Switch</a>
+							<input type="checkbox" name="article" class="button-article">
+							<nav class="deroule">
+								<a href="article/articleFETH.html"><nav class="effet-hover">Three Houses</nav></a>
+							</nav>
+						</nav></a>
+						<a href="autre.html"><nav class="sous-menu">
+							<a href="autre.html"><img src="../image/icone/liste.png" class="icone" alt=""> Nintendo 3DS</a>
+							<input type="checkbox" name="article" class="button-article">
+							<nav class="deroule">
+								<a href="autre.html"><nav class="effet-hover">Echoes : Shadows of Valentia</nav></a>
+								<a href="autre.html"><nav class="effet-hover">Fates : Conquête</nav></a>
+								<a href="autre.html"><nav class="effet-hover">Fates : Héritage</nav></a>
+								<a href="autre.html"><nav class="effet-hover">Awakening</nav></a>
+							</nav>
+						</nav></a>
+						<a href="autre.html"><nav class="sous-menu">
+							<a href="autre.html"><img src="../image/icone/liste.png" class="icone" alt=""> Nintendo DS</a>
+							<input type="checkbox" name="article" class="button-article">
+							<nav class="deroule">
+								<a href="autre.html"><nav class="effet-hover">Shin Monshō no Nazo</nav></a>
+								<a href="autre.html"><nav class="effet-hover">Shadow Dragon</nav></a>
+							</nav>
+						</nav></a>
+					</nav>
+				</nav>
+
+
+				<nav><a href="qui.html"><img src="../image/icone/qui.png" class="icone" alt=""> Qui somme nous ?</a></nav>
+				<nav><a href="autre.html"><img src="../image/icone/contact.png" class="icone" alt=""> Contact</a></nav>
+
+			</nav>
+		</nav>
+	</header>
+
+	<main class="cadre" id="fond-page">
+		<h1 id="titre-page">VAPEU® - Des jeux pour les stratèges</h1>
+		<!--p id="avenir">À venir</p-->
+		<p class="centre-page">commande validée</p>
+		<p class="centre-page"><a href="../index.html"><button id="retour" class="texte-blanc effet-hover">Acceuil</button></a></p>
+	</main>
+
+</body>
+</html>
