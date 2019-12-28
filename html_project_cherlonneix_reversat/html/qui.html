@@ -7,118 +7,133 @@ L'aspect graphique générale provient de https://pokestrat.io/
 -->
 
 <html lang="fr">
-<head>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" type="image/png" href="../image/favicon.png">
 
+		<link type="text/css" rel="stylesheet" href="../css/menu.css" />
+		<link type="text/css" rel="stylesheet" href="../css/base.css" />
+		<link type="text/css" rel="stylesheet" href="../css/qui.css" />
 
-<!-- Favicon-->
-<link rel="icon" type="image/png" href="../image/favicon.png">
+		<title>VAPEU®</title>
+	</head>
 
+	<body>
 
-
-<!-- CSS -->
-<link type="text/css" rel="stylesheet" href="../css/menu.css" />
-<link type="text/css" rel="stylesheet" href="../css/base.css" />
-<link type="text/css" rel="stylesheet" href="../css/qui.css" />
-
-
-
-<title>VAPEU®</title>
-
-
-</head>
-
-<body>
-
-	<header class="ban">
-		<nav id="top-menu">
-			<img src="../image/favicon.png" id="logo" alt="Logo VAPEUR">
-			<a href="#fond-menu"><img src="../image/icone/menu.png" id="bouton-menu-mobile" class="effet-hover" alt="Logo VAPEUR"></a>
-			<!--<input type="checkbox" name="menu_responsive" id="bouton-menu-mobile" class="effet-hover">-->
-
-			<nav class="recherche">
-				<input type="text" name="rechercher" id="rechercheInput" placeholder="Rechercher">
-				<a href="resultat.html" id="loupe"><img src="../image/icone/filtre.png" class="icone" alt="GO"></a>
+		<header class="ban">
+			<nav id="top-menu">
+				<img src="../image/favicon.png" id="logo" alt="Logo VAPEUR">
+				<a href="#fond-menu">
+					<img src="../image/icone/menu.png" id="bouton-menu-mobile" class="effet-hover" alt="Logo VAPEUR">
+				</a>
+				<nav class="recherche">
+					<input type="text" name="rechercher" id="rechercheInput" placeholder="Rechercher">
+					<a href="resultat.html" id="loupe">
+						<img src="../image/icone/filtre.png" class="icone" alt="GO">
+					</a>
+				</nav>
+				<a href="panier.html" id="panier">
+					<img src="../image/icone/panier.png" class="icone" alt="icone">
+				</a>
 			</nav>
-			<a href="panier.html" id="panier"><img src="../image/icone/panier.png" class="icone" alt="icone"></a>
-		</nav>
-		<nav id="close"></nav>
-		<nav id="fond-menu">
-			<nav id="menu-mobile">
-
-				<nav id="closemenu"><a href="#close"><img src="../image/icone/closemenu.png" class="icone" alt="icone"></a></nav>
-
-				<nav><a href="../index.html"><img src="../image/icone/acceuil.png" class="icone" alt="icone"> Acceuil</a></nav>
-
-				<nav class="sous-menu1">
-					<a href="autre.html"><img src="../image/icone/licence.png" class="icone" alt="icone"> Articles</a>
-					<input type="checkbox" name="licence" class="button-article">
-					<nav class="deroule">
-						<nav class="sous-menu">
-							<a href="autre.html"><img src="../image/icone/liste.png" class="icone" alt="icone"> Nintendo Switch</a>
-							<input type="checkbox" name="article" class="button-article">
-							<nav class="deroule">
-								<a href="article/articleFETH.html"><nav class="effet-hover">Three Houses</nav></a>
+			<nav id="close"></nav>
+			<nav id="fond-menu">
+				<nav id="menu-mobile">
+					<nav id="closemenu">
+						<a href="#close">
+							<img src="../image/icone/closemenu.png" class="icone" alt="icone">
+						</a>
+					</nav>
+					<nav>
+						<a href="../index.html"><img src="../image/icone/acceuil.png" class="icone" alt="icone"> Acceuil</a>
+					</nav>
+					<nav class="sous-menu1">
+						<a href="autre.html"><img src="../image/icone/licence.png" class="icone" alt="icone"> Articles</a>
+						<input type="checkbox" name="licence" class="button-article">
+						<nav class="deroule">
+							<nav class="sous-menu">
+								<a href="autre.html"> Nintendo Switch</a>
+								<input type="checkbox" name="article" class="button-article">
+								<nav class="deroule">
+									<a href="article/articleFETH.html">
+										<nav class="effet-hover">Three Houses</nav>
+									</a>
+								</nav>
 							</nav>
-						</nav>
-						<nav class="sous-menu">
-							<a href="autre.html"><img src="../image/icone/liste.png" class="icone" alt="icone"> Nintendo 3DS</a>
-							<input type="checkbox" name="article" class="button-article">
-							<nav class="deroule">
-								<a href="autre.html"><nav class="effet-hover">Echoes : Shadows of Valentia</nav></a>
-								<a href="autre.html"><nav class="effet-hover">Fates : Conquête</nav></a>
-								<a href="autre.html"><nav class="effet-hover">Fates : Héritage</nav></a>
-								<a href="autre.html"><nav class="effet-hover">Awakening</nav></a>
+							<nav class="sous-menu">
+								<a href="autre.html"> Nintendo 3DS</a>
+								<input type="checkbox" name="article" class="button-article">
+								<nav class="deroule">
+									<a href="autre.html">
+										<nav class="effet-hover">Echoes : Shadows of Valentia</nav>
+									</a>
+									<a href="autre.html">
+										<nav class="effet-hover">Fates : Conquête</nav>
+									</a>
+									<a href="autre.html">
+										<nav class="effet-hover">Fates : Héritage</nav>
+									</a>
+									<a href="autre.html">
+										<nav class="effet-hover">Awakening</nav>
+									</a>
+								</nav>
 							</nav>
-						</nav>
-						<nav class="sous-menu">
-							<a href="autre.html"><img src="../image/icone/liste.png" class="icone" alt="icone"> Nintendo DS</a>
-							<input type="checkbox" name="article" class="button-article">
-							<nav class="deroule">
-								<a href="autre.html"><nav class="effet-hover">Shin Monshō no Nazo</nav></a>
-								<a href="autre.html"><nav class="effet-hover">Shadow Dragon</nav></a>
+							<nav class="sous-menu">
+								<a href="autre.html"> Nintendo DS</a>
+								<input type="checkbox" name="article" class="button-article">
+								<nav class="deroule">
+									<a href="autre.html">
+										<nav class="effet-hover">Shin Monshō no Nazo</nav>
+									</a>
+									<a href="autre.html">
+										<nav class="effet-hover">Shadow Dragon</nav>
+									</a>
+								</nav>
 							</nav>
 						</nav>
 					</nav>
+					<nav>
+						<a href="qui.html"><img src="../image/icone/qui.png" class="icone" alt="icone"> Qui sommes-nous ?</a>
+					</nav>
+					<nav>
+						<a href="autre.html"><img src="../image/icone/contact.png" class="icone" alt="icone"> Contact</a>
+					</nav>
 				</nav>
-
-
-				<nav><a href="qui.html"><img src="../image/icone/qui.png" class="icone" alt="icone"> Qui somme nous ?</a></nav>
-				<nav><a href="autre.html"><img src="../image/icone/contact.png" class="icone" alt="icone"> Contact</a></nav>
-
 			</nav>
-		</nav>
-	</header>
+		</header>
 
-	<main class="cadre" id="fond-page">
-		<h1 id="titre-page">VAPEU® - Des jeux pour les stratèges</h1>
+		<main class="cadre" id="fond-page">
+			<h1 id="titre-page">VAPEU® - Des jeux pour les stratèges</h1>
 
-		<section id="espacement">
-			<h2 class="hidde">Qui somme nous ?</h2>
-			<article class="part">
-				<h3 class="bold"><img src="../image/icone/filtre.png" class="icone" alt="icone"> Qui somme nous ?</h3>
+			<section id="espacement">
+				<h2 class="hidde">Qui sommes-nous ?</h2>
 
-				<article class="block-base">
-					<h4 class="hidde">Qui somme nous ?</h4>
-					<p>Étudiants en DUT Informatique et stratèges du royaume d'Ylisse,</p>
-					<p>nous gérons ce site de vente en ligne de jeux Fire Emblem pour permettre à touts les fans de la licence de commander leurs jeux favoris simplement et rapidement.</p>
-					<section>
-						<h5 class="hidde">Profil</h5>
-						<div>
-							<img src="../image/user/user0.png" alt="image de profil">
-							<p>Cherlonneix Rodolphe</p>
-						</div>
-						<div>
-							<img src="../image/user/user1.png" alt="image de profil">
-							<p>Reversat Vincent</p>
-						</div>
-					</section>
+				<article class="part">
+					<h3 class="bold"><img src="../image/icone/filtre.png" class="icone" alt="icone"> Qui sommes-nous ?</h3>
+
+					<article class="block-base">
+						<h4 class="hidde">Qui sommes-nous ?</h4>
+						<p>Étudiants en DUT Informatique et stratèges du royaume d'Ylisse,</p>
+						<p>Nous gérons ce site de vente en ligne de jeux Fire Emblem pour permettre à tous les fans de la licence de commander leurs jeux favoris simplement et rapidement.</p>
+						<p>Nous proposons les jeux aux meilleurs prix possibles et sur différents supports.</p>
+						<p>Nous essayons également de vous donner accès aux jeux Fire Emblem plus anciens pour que les nouveaux fans puissent également profiter du divertissement que ces jeux procurent.</p>
+						<section>
+							<h5 class="hidde">Profil</h5>
+							<div>
+								<img src="../image/user/userR.png" alt="image de profil">
+								<p>Cherlonneix Rodolphe</p>
+							</div>
+							<div>
+								<img src="../image/user/userV.png" alt="image de profil">
+								<p>Reversat Vincent</p>
+							</div>
+						</section>
+					</article>
 				</article>
-			</article>
-		</section>
-	</main>
+			</section>
+		</main>
 
-</body>
+	</body>
 </html>

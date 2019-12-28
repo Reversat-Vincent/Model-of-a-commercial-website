@@ -7,177 +7,196 @@ L'aspect graphique générale provient de https://pokestrat.io/
 -->
 
 <html lang="fr">
-<head>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" type="image/png" href="../image/favicon.png">
 
+		<link type="text/css" rel="stylesheet" href="../css/menu.css" />
+		<link type="text/css" rel="stylesheet" href="../css/base.css" />
+		<link type="text/css" rel="stylesheet" href="../css/liste.css" />
+		<link type="text/css" rel="stylesheet" href="../css/score.css" />
 
-<!-- Favicon-->
-<link rel="icon" type="image/png" href="../image/favicon.png">
+		<title>VAPEU®</title>
+	</head>
 
+	<body>
 
-
-<!-- CSS -->
-<link type="text/css" rel="stylesheet" href="../css/menu.css" />
-<link type="text/css" rel="stylesheet" href="../css/base.css" />
-<link type="text/css" rel="stylesheet" href="../css/liste.css" />
-<link type="text/css" rel="stylesheet" href="../css/score.css" />
-
-
-
-<title>VAPEU®</title>
-
-
-</head>
-
-<body>
-
-	<header class="ban">
-		<nav id="top-menu">
-			<img src="../image/favicon.png" id="logo" alt="Logo VAPEUR">
-			<a href="#fond-menu"><img src="../image/icone/menu.png" id="bouton-menu-mobile" class="effet-hover" alt="Logo VAPEUR"></a>
-			<!--<input type="checkbox" name="menu_responsive" id="bouton-menu-mobile" class="effet-hover">-->
-
-			<nav class="recherche">
-				<input type="text" name="rechercher" id="rechercheInput" placeholder="Rechercher">
-				<a href="resultat.html" id="loupe"><img src="../image/icone/filtre.png" class="icone" alt="GO"></a>
+		<header class="ban">
+			<nav id="top-menu">
+				<img src="../image/favicon.png" id="logo" alt="Logo VAPEUR">
+				<a href="#fond-menu">
+					<img src="../image/icone/menu.png" id="bouton-menu-mobile" class="effet-hover" alt="Logo VAPEUR">
+				</a>
+				<nav class="recherche">
+					<input type="text" name="rechercher" id="rechercheInput" placeholder="Rechercher">
+					<a href="resultat.html" id="loupe">
+						<img src="../image/icone/filtre.png" class="icone" alt="GO">
+					</a>
+				</nav>
+				<a href="panier.html" id="panier">
+					<img src="../image/icone/panier.png" class="icone" alt="icone">
+				</a>
 			</nav>
-			<a href="panier.html" id="panier"><img src="../image/icone/panier.png" class="icone" alt="icone"></a>
-		</nav>
-		<nav id="close"></nav>
-		<nav id="fond-menu">
-			<nav id="menu-mobile">
-
-				<nav id="closemenu"><a href="#close"><img src="../image/icone/closemenu.png" class="icone" alt="icone"></a></nav>
-
-				<nav><a href="../index.html"><img src="../image/icone/acceuil.png" class="icone" alt="icone"> Acceuil</a></nav>
-
-				<nav class="sous-menu1">
-					<a href="autre.html"><img src="../image/icone/licence.png" class="icone" alt="icone"> Articles</a>
-					<input type="checkbox" name="licence" class="button-article">
-					<nav class="deroule">
-						<nav class="sous-menu">
-							<a href="autre.html"><img src="../image/icone/liste.png" class="icone" alt="icone"> Nintendo Switch</a>
-							<input type="checkbox" name="article" class="button-article">
-							<nav class="deroule">
-								<a href="article/articleFETH.html"><nav class="effet-hover">Three Houses</nav></a>
+			<nav id="close"></nav>
+			<nav id="fond-menu">
+				<nav id="menu-mobile">
+					<nav id="closemenu">
+						<a href="#close">
+							<img src="../image/icone/closemenu.png" class="icone" alt="icone">
+						</a>
+					</nav>
+					<nav>
+						<a href="../index.html"><img src="../image/icone/acceuil.png" class="icone" alt="icone"> Acceuil</a>
+					</nav>
+					<nav class="sous-menu1">
+						<a href="autre.html"><img src="../image/icone/licence.png" class="icone" alt="icone"> Articles</a>
+						<input type="checkbox" name="licence" class="button-article">
+						<nav class="deroule">
+							<nav class="sous-menu">
+								<a href="autre.html"> Nintendo Switch</a>
+								<input type="checkbox" name="article" class="button-article">
+								<nav class="deroule">
+									<a href="article/articleFETH.html">
+										<nav class="effet-hover">Three Houses</nav>
+									</a>
+								</nav>
 							</nav>
-						</nav>
-						<nav class="sous-menu">
-							<a href="autre.html"><img src="../image/icone/liste.png" class="icone" alt="icone"> Nintendo 3DS</a>
-							<input type="checkbox" name="article" class="button-article">
-							<nav class="deroule">
-								<a href="autre.html"><nav class="effet-hover">Echoes : Shadows of Valentia</nav></a>
-								<a href="autre.html"><nav class="effet-hover">Fates : Conquête</nav></a>
-								<a href="autre.html"><nav class="effet-hover">Fates : Héritage</nav></a>
-								<a href="autre.html"><nav class="effet-hover">Awakening</nav></a>
+							<nav class="sous-menu">
+								<a href="autre.html"> Nintendo 3DS</a>
+								<input type="checkbox" name="article" class="button-article">
+								<nav class="deroule">
+									<a href="autre.html">
+										<nav class="effet-hover">Echoes : Shadows of Valentia</nav>
+									</a>
+									<a href="autre.html">
+										<nav class="effet-hover">Fates : Conquête</nav>
+									</a>
+									<a href="autre.html">
+										<nav class="effet-hover">Fates : Héritage</nav>
+									</a>
+									<a href="autre.html">
+										<nav class="effet-hover">Awakening</nav>
+									</a>
+								</nav>
 							</nav>
-						</nav>
-						<nav class="sous-menu">
-							<a href="autre.html"><img src="../image/icone/liste.png" class="icone" alt="icone"> Nintendo DS</a>
-							<input type="checkbox" name="article" class="button-article">
-							<nav class="deroule">
-								<a href="autre.html"><nav class="effet-hover">Shin Monshō no Nazo</nav></a>
-								<a href="autre.html"><nav class="effet-hover">Shadow Dragon</nav></a>
+							<nav class="sous-menu">
+								<a href="autre.html"> Nintendo DS</a>
+								<input type="checkbox" name="article" class="button-article">
+								<nav class="deroule">
+									<a href="autre.html">
+										<nav class="effet-hover">Shin Monshō no Nazo</nav>
+									</a>
+									<a href="autre.html">
+										<nav class="effet-hover">Shadow Dragon</nav>
+									</a>
+								</nav>
 							</nav>
 						</nav>
 					</nav>
+					<nav>
+						<a href="qui.html"><img src="../image/icone/qui.png" class="icone" alt="icone"> Qui sommes-nous ?</a>
+					</nav>
+					<nav>
+						<a href="autre.html"><img src="../image/icone/contact.png" class="icone" alt="icone"> Contact</a>
+					</nav>
 				</nav>
-
-
-				<nav><a href="qui.html"><img src="../image/icone/qui.png" class="icone" alt="icone"> Qui somme nous ?</a></nav>
-				<nav><a href="autre.html"><img src="../image/icone/contact.png" class="icone" alt="icone"> Contact</a></nav>
-
 			</nav>
-		</nav>
-	</header>
+		</header>
 
-	<main class="cadre" id="fond-page">
-		<h1 id="titre-page">VAPEU® - Des jeux pour les stratèges</h1>
+		<main class="cadre" id="fond-page">
+			<h1 id="titre-page">VAPEU® - Des jeux pour les stratèges</h1>
 
-		<section id="espacement">
-			<h2 class="hidde">Resultat</h2>
-			<article class="part">
-				<h3 class="bold"><img src="../image/icone/filtre.png" class="icone" alt="icone"> Resultat de la recherche</h3>
+			<section id="espacement">
+				<h2 class="hidde">Resultat</h2>
 
-				<section id="filtre">
-					<h4 class="hidde">Filtre</h4>
-					<form><p><label>Filtre : </label>
-						<select name="console" class="filtre">
-							<option value="tout">Toutes les consoles</option>
-							<option value="switch">Switch</option>
-							<option value="3ds">3DS</option>
-							<option value="ds">DS</option>
-						</select>
-						<select name="promo" class="filtre">
-							<option value="tout">Avec et sans promo</option>
-							<option value="avec">Avec promo</option>
-							<option value="sans">Sans promo</option>
-						</select>
-						<a href="resultat.html"><img src="../image/icone/maj.png" class="icone" alt="Appliquer"></a>
-					</p></form>
-				</section>
+				<article class="part">
+					<h3 class="bold"><img src="../image/icone/filtre.png" class="icone" alt="icone"> Resultat de la recherche</h3>
 
-				<article class="block-liste">
-					<h4 class="hidde">Liste</h4>
-					<section class="ligne1">
-						<h5 class="hidde">Three Houses</h5>
-						<a href="article/articleFETH.html">
-							<img src="../image/Jaquette_FETH.jpg" class="icone2" alt="Jaquette">
-							<p>Three Houses</p>
-							<div class="mini-score">
-								<div class="mini-score-column" id="mini-score-column1"></div>
-								<div class="mini-score-column" id="mini-score-column2"></div>
-								<div class="mini-score-column" id="mini-score-column3"></div>
-								<div class="mini-score-column" id="mini-score-column4"></div>
-								<div class="mini-score-column" id="mini-score-column5"></div>
-								<p><img src="../image/icone/score.png" class="icone" alt="icone">Score</p>
-							</div>
-							<p class="ban-promo">PROMO !!!</p>
-						</a>
+					<section id="filtre">
+						<h4 class="hidde">Filtre</h4>
+						<form>
+							<p>
+								<label>Filtre : </label>
+								<select name="console" class="filtre">
+									<option value="tout">Toutes les consoles</option>
+									<option value="switch">Switch</option>
+									<option value="3ds">3DS</option>
+									<option value="ds">DS</option>
+								</select>
+								<select name="promo" class="filtre">
+									<option value="tout">Avec et sans promo</option>
+									<option value="avec">Avec promo</option>
+									<option value="sans">Sans promo</option>
+								</select>
+								<a href="resultat.html">
+									<img src="../image/icone/maj.png" class="icone" alt="Appliquer">
+								</a>
+							</p>
+						</form>
 					</section>
-					<section class="ligne2">
-						<h5 class="hidde">Echoes : Shadows of Valentia</h5>
-						<a href="autre.html">
-							<img src="../image/Jaquette_FEE.jpg" class="icone2" alt="Jaquette">
-							<p>Echoes : Shadows of Valentia</p>
-						</a>
-					</section>
-					<section class="ligne1">
-						<h5 class="hidde">Fates : Conquête</h5>
-						<a href="autre.html">
-							<img src="../image/Jaquette_FEFC.jpg" class="icone2" alt="Jaquette">
-							<p>Fates : Conquête</p></a>
-					</section>
-					<section class="ligne2">
-						<h5 class="hidde">Fates : Héritage</h5>
-						<a href="autre.html">
-							<img src="../image/Jaquette_FEFH.jpg" class="icone2" alt="Jaquette">
-							<p>Fates : Héritage</p></a>
-					</section>
-					<section class="ligne1">
-						<h5 class="hidde">Awakening</h5>
-						<a href="autre.html">
-							<img src="../image/Jaquette_FEA.png" class="icone2" alt="Jaquette">
-							<p>Awakening</p></a>
-					</section>
-					<section class="ligne2">
-						<h5 class="hidde">Shin Monshō no Nazo</h5>
-						<a href="autre.html">
-							<img src="../image/Jaquette_FESMN.jpg" class="icone2" alt="Jaquette">
-							<p>Shin Monshō no Nazo</p></a>
-					</section>
-					<section class="ligne1">
-						<h5 class="hidde">Shadow Dragon</h5>
-						<a href="autre.html">
-							<img src="../image/Jaquette_FESD.jpg" class="icone2" alt="Jaquette">
-							<p>Shadow Dragon</p></a>
-					</section>
+
+					<article class="block-liste">
+						<h4 class="hidde">Liste</h4>
+						<section class="ligne1">
+							<h5 class="hidde">Three Houses</h5>
+							<a href="article/articleFETH.html">
+								<img src="../image/Jaquette_FETH.jpg" class="icone2" alt="Jaquette">
+								<p>Three Houses</p>
+								<div class="mini-score">
+									<div class="mini-score-column" id="mini-score-column1"></div>
+									<div class="mini-score-column" id="mini-score-column2"></div>
+									<div class="mini-score-column" id="mini-score-column3"></div>
+									<div class="mini-score-column" id="mini-score-column4"></div>
+									<div class="mini-score-column" id="mini-score-column5"></div>
+									<p><img src="../image/icone/score.png" class="icone" alt="icone">Score</p>
+								</div>
+								<p class="ban-promo">PROMO !!!</p>
+							</a>
+						</section>
+						<section class="ligne2">
+							<h5 class="hidde">Echoes : Shadows of Valentia</h5>
+							<a href="autre.html">
+								<img src="../image/Jaquette_FEE.jpg" class="icone2" alt="Jaquette">
+								<p>Echoes : Shadows of Valentia</p>
+							</a>
+						</section>
+						<section class="ligne1">
+							<h5 class="hidde">Fates : Conquête</h5>
+							<a href="autre.html">
+								<img src="../image/Jaquette_FEFC.jpg" class="icone2" alt="Jaquette">
+								<p>Fates : Conquête</p></a>
+						</section>
+						<section class="ligne2">
+							<h5 class="hidde">Fates : Héritage</h5>
+							<a href="autre.html">
+								<img src="../image/Jaquette_FEFH.jpg" class="icone2" alt="Jaquette">
+								<p>Fates : Héritage</p></a>
+						</section>
+						<section class="ligne1">
+							<h5 class="hidde">Awakening</h5>
+							<a href="autre.html">
+								<img src="../image/Jaquette_FEA.png" class="icone2" alt="Jaquette">
+								<p>Awakening</p></a>
+						</section>
+						<section class="ligne2">
+							<h5 class="hidde">Shin Monshō no Nazo</h5>
+							<a href="autre.html">
+								<img src="../image/Jaquette_FESMN.jpg" class="icone2" alt="Jaquette">
+								<p>Shin Monshō no Nazo</p></a>
+						</section>
+						<section class="ligne1">
+							<h5 class="hidde">Shadow Dragon</h5>
+							<a href="autre.html">
+								<img src="../image/Jaquette_FESD.jpg" class="icone2" alt="Jaquette">
+								<p>Shadow Dragon</p>
+							</a>
+						</section>
+					</article>
 				</article>
-			</article>
-		</section>
-	</main>
+			</section>
+		</main>
 
-</body>
+	</body>
 </html>

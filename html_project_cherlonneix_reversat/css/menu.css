@@ -79,11 +79,16 @@ nav#menu-mobile > nav:hover{
 	background-color: #BBB;
 }
 
+.sous-menu{
+	padding: 0.5em 0em 0.5em 10px;
+}
+
 .sous-menu .deroule{
 	display: none;
 	background-color: #CCC;
 	border-left: 5px solid #07F;
 	padding-left: 5px;
+	margin-top: 0.5em;
 }
 
 .sous-menu .deroule a nav{
@@ -100,10 +105,6 @@ img#logo{
 
 img.logo-mobile, #bouton-menu-mobile{
 	display: none;
-}
-
-.effet-hover:hover{
-	opacity: 0.6;
 }
 
 input{
@@ -124,13 +125,21 @@ input#bouton-menu-mobile{
 }
 
 input.button-article{
-	background: url("../image/icone/menu.png");
+	background: url("../image/icone/plus.png");
 	width: 1.4em;
 	height: 1.4em;
-	background-size: 100%;
+	background-size: 130%;
 	background-position: center;
 	position: absolute;
 	right: 0;
+	top: 0.1em;
+	border: none;
+}
+
+input.button-article:checked{
+	background: url("../image/icone/minus.png");
+	background-size: 130%;
+	background-position: center;
 }
 
 .recherche{

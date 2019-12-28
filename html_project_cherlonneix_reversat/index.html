@@ -7,198 +7,217 @@ L'aspect graphique générale provient de https://pokestrat.io/
 -->
 
 <html lang="fr">
-<head>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" type="image/png" href="image/favicon.png">
 
+		<link type="text/css" rel="stylesheet" href="css/menu.css" />
+		<link type="text/css" rel="stylesheet" href="css/base.css" />
+		<link type="text/css" rel="stylesheet" href="css/liste.css" />
+		<link type="text/css" rel="stylesheet" href="css/annonces.css" />
 
-<!-- Favicon-->
-<link rel="icon" type="image/png" href="image/favicon.png">
+		<title>VAPEU®</title>
+	</head>
 
+	<body>
 
-
-<!-- CSS -->
-<link type="text/css" rel="stylesheet" href="css/menu.css" />
-<link type="text/css" rel="stylesheet" href="css/base.css" />
-<link type="text/css" rel="stylesheet" href="css/liste.css" />
-<link type="text/css" rel="stylesheet" href="css/annonces.css" />
-
-
-
-<title>VAPEU®</title>
-
-
-</head>
-
-<body>
-
-	<header class="ban">
-		<nav id="top-menu">
-			<img src="image/favicon.png" id="logo" alt="Logo VAPEUR">
-			<a href="#fond-menu"><img src="image/icone/menu.png" id="bouton-menu-mobile" class="effet-hover" alt="Logo VAPEUR"></a>
-			<!--<input type="checkbox" name="menu_responsive" id="bouton-menu-mobile" class="effet-hover">-->
-
-			<nav class="recherche">
-				<input type="text" name="rechercher" id="rechercheInput" placeholder="Rechercher">
-				<a href="html/resultat.html" id="loupe"><img src="image/icone/filtre.png" class="icone" alt="GO"></a>
+		<header class="ban">
+			<nav id="top-menu">
+				<img src="image/favicon.png" id="logo" alt="Logo VAPEUR">
+				<a href="#fond-menu">
+					<img src="image/icone/menu.png" id="bouton-menu-mobile" class="effet-hover" alt="Logo VAPEUR">
+				</a>
+				<nav class="recherche">
+					<input type="text" name="rechercher" id="rechercheInput" placeholder="Rechercher">
+					<a href="html/resultat.html" id="loupe">
+						<img src="image/icone/filtre.png" class="icone" alt="GO">
+					</a>
+				</nav>
+				<a href="html/panier.html" id="panier">
+					<img src="image/icone/panier.png" class="icone" alt="icone">
+				</a>
 			</nav>
-			<a href="html/panier.html" id="panier"><img src="image/icone/panier.png" class="icone" alt="icone"></a>
-		</nav>
-		<nav id="close"></nav>
-		<nav id="fond-menu">
-			<nav id="menu-mobile">
-
-				<nav id="closemenu"><a href="#close"><img src="image/icone/closemenu.png" class="icone" alt="icone"></a></nav>
-
-				<nav><a href="index.html"><img src="image/icone/acceuil.png" class="icone" alt="icone"> Acceuil</a></nav>
-
-				<nav class="sous-menu1">
-					<a href="html/autre.html"><img src="image/icone/licence.png" class="icone" alt="icone"> Articles</a>
-					<input type="checkbox" name="licence" class="button-article">
-					<nav class="deroule">
-						<nav class="sous-menu">
-							<a href="html/autre.html"><img src="image/icone/liste.png" class="icone" alt="icone"> Nintendo Switch</a>
-							<input type="checkbox" name="article" class="button-article">
-							<nav class="deroule">
-								<a href="html/article/articleFETH.html"><nav class="effet-hover">Three Houses</nav></a>
+			<nav id="close"></nav>
+			<nav id="fond-menu">
+				<nav id="menu-mobile">
+					<nav id="closemenu">
+						<a href="#close">
+							<img src="image/icone/closemenu.png" class="icone" alt="icone">
+						</a>
+					</nav>
+					<nav>
+						<a href="index.html"><img src="image/icone/acceuil.png" class="icone" alt="icone"> Acceuil</a>
+					</nav>
+					<nav class="sous-menu1">
+						<a href="html/autre.html"><img src="image/icone/licence.png" class="icone" alt="icone"> Articles</a>
+						<input type="checkbox" name="licence" class="button-article">
+						<nav class="deroule">
+							<nav class="sous-menu">
+								<a href="html/autre.html"> Nintendo Switch</a>
+								<input type="checkbox" name="article" class="button-article">
+								<nav class="deroule">
+									<a href="html/article/articleFETH.html">
+										<nav class="effet-hover">Three Houses</nav>
+									</a>
+								</nav>
+							</nav>
+							<nav class="sous-menu">
+								<a href="html/autre.html"> Nintendo 3DS</a>
+								<input type="checkbox" name="article" class="button-article">
+								<nav class="deroule">
+									<a href="html/autre.html">
+										<nav class="effet-hover">Echoes : Shadows of Valentia</nav>
+									</a>
+									<a href="html/autre.html">
+										<nav class="effet-hover">Fates : Conquête</nav>
+									</a>
+									<a href="html/autre.html">
+										<nav class="effet-hover">Fates : Héritage</nav>
+									</a>
+									<a href="html/autre.html">
+										<nav class="effet-hover">Awakening</nav>
+									</a>
+								</nav>
+							</nav>
+							<nav class="sous-menu">
+								<a href="html/autre.html"> Nintendo DS</a>
+								<input type="checkbox" name="article" class="button-article">
+								<nav class="deroule">
+									<a href="html/autre.html">
+										<nav class="effet-hover">Shin Monshō no Nazo</nav>
+									</a>
+									<a href="html/autre.html">
+										<nav class="effet-hover">Shadow Dragon</nav>
+									</a>
+								</nav>
 							</nav>
 						</nav>
-						<nav class="sous-menu">
-							<a href="html/autre.html"><img src="image/icone/liste.png" class="icone" alt="icone"> Nintendo 3DS</a>
-							<input type="checkbox" name="article" class="button-article">
-							<nav class="deroule">
-								<a href="html/autre.html"><nav class="effet-hover">Echoes : Shadows of Valentia</nav></a>
-								<a href="html/autre.html"><nav class="effet-hover">Fates : Conquête</nav></a>
-								<a href="html/autre.html"><nav class="effet-hover">Fates : Héritage</nav></a>
-								<a href="html/autre.html"><nav class="effet-hover">Awakening</nav></a>
-							</nav>
-						</nav>
-						<nav class="sous-menu">
-							<a href="html/autre.html"><img src="image/icone/liste.png" class="icone" alt="icone"> Nintendo DS</a>
-							<input type="checkbox" name="article" class="button-article">
-							<nav class="deroule">
-								<a href="html/autre.html"><nav class="effet-hover">Shin Monshō no Nazo</nav></a>
-								<a href="html/autre.html"><nav class="effet-hover">Shadow Dragon</nav></a>
-							</nav>
-						</nav>
+					</nav>
+					<nav>
+						<a href="html/qui.html"><img src="image/icone/qui.png" class="icone" alt="icone"> Qui sommes-nous ?</a>
+					</nav>
+					<nav>
+						<a href="html/autre.html"><img src="image/icone/contact.png" class="icone" alt="icone"> Contact</a>
 					</nav>
 				</nav>
-
-
-				<nav><a href="html/qui.html"><img src="image/icone/qui.png" class="icone" alt="icone"> Qui somme nous ?</a></nav>
-				<nav><a href="html/autre.html"><img src="image/icone/contact.png" class="icone" alt="icone"> Contact</a></nav>
-
 			</nav>
-		</nav>
-	</header>
+		</header>
 
-	<main class="cadre" id="fond-page">
-		<h1 id="titre-page">VAPEU® - Des jeux pour les stratèges</h1>
-		<p id="bienvenu">Bienvenue sur le site spécialisé de vente de jeux Fire Emblem</p>
+		<main class="cadre" id="fond-page">
+			<h1 id="titre-page">VAPEU® - Des jeux pour les stratèges</h1>
+			<p id="bienvenu">Bienvenue sur le site spécialisé de vente de jeux Fire Emblem</p>
 
-		<section id="espacement-acceuil">
-			<h2 class="hidde">Acceuil</h2>
-			<section id="acceuil_first_section">
-				<h3 class="hidde">Acceuil</h3>
-				<article class="part">
-					<h4 class="bold"><img src="image/icone/time.png" class="icone" alt="icone"> Nouveau !</h4>
-					<nav class="block-liste">
-						<nav class="ligne1">
-							<a href="html/article/articleFETH.html"><img src="image/Jaquette_FETH.jpg" class="icone2" alt="Jaquette"><p>Three Houses</p><p class="ban-promo">PROMO !!!</p></a>
+			<section id="espacement-acceuil">
+				<h2 class="hidde">Acceuil</h2>
+				<section id="acceuil_first_section">
+					<h3 class="hidde">Acceuil</h3>
+
+					<article class="part">
+						<h4 class="bold"><img src="image/icone/time.png" class="icone" alt="icone"> Nouveau !</h4>
+						<nav class="block-liste">
+							<nav class="ligne1">
+								<a href="html/article/articleFETH.html">
+									<img src="image/Jaquette_FETH.jpg" class="icone2" alt="Jaquette">
+									<p>Three Houses</p><p class="ban-promo">PROMO !!!</p>
+								</a>
+							</nav>
 						</nav>
-					</nav>
-				</article>
+					</article>
 
-
-				<article class="part">
-					<h4 class="bold"><img src="image/icone/coeur.png" class="icone" alt="icone"> Recommandation</h4>
-					<nav id="recommandation">
-						<a href="html/autre.html"><img src="image/Jaquette_FEA.png" class="icone2" alt="Jaquette"><p>L'incontournable Fire Emblem Awakening</p></a>
-					</nav>
-				</article>
-
-				<article class="part">
-					<h4 class="bold"><img src="image/icone/tendance.png" class="icone" alt="icone"> Tendance</h4>
-
-					<nav class="block-liste" id="tendance">
-						<nav class="ligne1">
-							<a href="html/article/articleFETH.html">
-								<p>N°1</p>
-								<img src="image/Jaquette_FETH.jpg" class="icone2" alt="Jaquette">
-								<p>Three Houses</p>
-								<p class="ban-promo">PROMO !!!</p>
+					<article class="part">
+						<h4 class="bold"><img src="image/icone/coeur.png" class="icone" alt="icone"> Recommandation</h4>
+						<nav id="recommandation">
+							<a href="html/autre.html">
+								<img src="image/Jaquette_FEA.png" class="icone2" alt="Jaquette">
+								<p>L'incontournable Fire Emblem Awakening</p>
 							</a>
 						</nav>
-						<nav class="ligne2">
-							<a href="html/autre.html">
-								<p>N°2</p>
-								<img src="image/Jaquette_FEE.jpg" class="icone2" alt="Jaquette">
-								<p>Echoes : Shadows of Valentia</p>
-							</a>
+					</article>
+
+					<article class="part">
+						<h4 class="bold"><img src="image/icone/tendance.png" class="icone" alt="icone"> Tendance</h4>
+						<nav class="block-liste" id="tendance">
+							<nav class="ligne1">
+								<a href="html/article/articleFETH.html">
+									<p>N°1</p>
+									<img src="image/Jaquette_FETH.jpg" class="icone2" alt="Jaquette">
+									<p>Three Houses</p>
+									<p class="ban-promo">PROMO !!!</p>
+								</a>
+							</nav>
+							<nav class="ligne2">
+								<a href="html/autre.html">
+									<p>N°2</p>
+									<img src="image/Jaquette_FEE.jpg" class="icone2" alt="Jaquette">
+									<p>Echoes : Shadows of Valentia</p>
+								</a>
+							</nav>
+							<nav class="ligne1">
+								<a href="html/autre.html">
+									<p>N°3</p>
+									<img src="image/Jaquette_FEFC.jpg" class="icone2" alt="Jaquette">
+									<p>Fates : Conquête</p>
+								</a>
+							</nav>
 						</nav>
-						<nav class="ligne1">
-							<a href="html/autre.html">
-								<p>N°3</p>
-								<img src="image/Jaquette_FEFC.jpg" class="icone2" alt="Jaquette">
-								<p>Fates : Conquête</p></a>
-						</nav>
-					</nav>
-				</article>
-			</section>
-
-
-
-			<section class="activite">
-				<h2 class="bold"><img src="image/icone/annonce.png" class="icone" alt="icone"> Annonces</h2>
-
-				<section class="activite-title-less">
-					<h3 class="hidde">Annonces</h3>
-
-					<article class="block-base">
-						<h4>01/01/2020 | Promo spéciale</h4>
-						<p class="annonce-font">Promo spéciale sur le jeux <a href="html/article/articleFETH.html">Fire Emblem : Three Houses</a> pour une durée indéterminée !</p>
 					</article>
+				</section>
 
-					<article class="block-base">
-						<h4>24/12/2019 | Fin des promos</h4>
-						<p class="annonce-font">Fin des promos de Noël.</p>
-					</article>
 
-					<article class="block-base">
-						<h4>01/12/2019 | Promos de Noël</h4>
-						<p class="annonce-font"> Promotions sur l'ensemble des articles jusqu'au 24/12 à l'occasion de Noël !</p>
-					</article>
 
-					<article class="block-base">
-						<h4>01/11/2019 | Promos de Noël</h4>
-						<p class="annonce-font"> Les promotions de Noël arrivent dans un mois, la patience sera récompensée.</p>
-					</article>
+				<section class="activite">
+					<h3 class="bold"><img src="image/icone/annonce.png" class="icone" alt="icone"> Annonces</h3>
 
-					<article class="block-base">
-						<h4>20/09/2019 | Infos consoles</h4>
-						<p class="annonce-font">La Nintendo Switch Lite arrive à prix plus accesible pour vous permettre à tous de jouer à <a href="html/article/articleFETH.html">Fire Emblem : Three Houses</a></p>
-					</article>
+					<section class="activite-title-less">
+						<h4 class="hidde">Annonces</h4>
 
-					<article class="block-base">
-						<h4>01/09/2019 | Fin des promotions de l'été</h4>
-						<p class="annonce-font">Fin des promotions de l'été. C'est l'heure de reprendre le travail.</p>
-					</article>
+						<article class="block-base">
+							<h5>01/01/2020 | Promo spéciale</h5>
+							<p class="annonce-font">Promo spéciale sur le jeu <a href="html/article/articleFETH.html">Fire Emblem : Three Houses</a> pour une durée indéterminée !</p>
+						</article>
 
-					<article class="block-base">
-						<h4>26/07/2019 | Sortie de jeu</h4>
-						<p class="annonce-font">Le tant attendu <a href="html/article/articleFETH.html">Fire Emblem : Three Houses</a> sort aujourd'hui, nous vous le recommandons fortement.</p>
-					</article>
+						<article class="block-base">
+							<h5>24/12/2019 | Fin des promos</h5>
+							<p class="annonce-font">Fin des promos de Noël.</p>
+						</article>
 
-					<article class="block-base">
-						<h4>01/07/2019 | Promotions de l'été</h4>
-						<p class="annonce-font">Pour ne pas s'ennuyer pendant les vancances d'été, des promos débarquent sur tout les jeux de 3DS.</p>
-					</article>
+						<article class="block-base">
+							<h5>01/12/2019 | Promos de Noël</h5>
+							<p class="annonce-font"> Promotions sur l'ensemble des articles jusqu'au 24/12 à l'occasion de Noël !</p>
+						</article>
 
+						<article class="block-base">
+							<h5>01/11/2019 | Promos de Noël</h5>
+							<p class="annonce-font"> Les promotions de Noël arrivent dans un mois, la patience sera récompensée.</p>
+						</article>
+
+						<article class="block-base">
+							<h5>20/09/2019 | Infos consoles</h5>
+							<p class="annonce-font">La Nintendo Switch Lite arrive à prix plus accessible pour vous permettre à tous de jouer à <a href="html/article/articleFETH.html">Fire Emblem : Three Houses</a></p>
+						</article>
+
+						<article class="block-base">
+							<h5>01/09/2019 | Fin des promotions de l'été</h5>
+							<p class="annonce-font">Fin des promotions de l'été. C'est l'heure de reprendre le travail.</p>
+						</article>
+
+						<article class="block-base">
+							<h5>26/07/2019 | Sortie de jeu</h5>
+							<p class="annonce-font">Le tant attendu <a href="html/article/articleFETH.html">Fire Emblem : Three Houses</a> sort aujourd'hui, nous vous le recommandons fortement.</p>
+						</article>
+
+						<article class="block-base">
+							<h5>01/07/2019 | Promotions de l'été</h5>
+							<p class="annonce-font">Pour ne pas s'ennuyer pendant les vacances d'été, des promos débarquent sur tous les jeux de 3DS.</p>
+						</article>
+
+					</section>
 				</section>
 			</section>
-		</section>
-	</main>
+		</main>
 
-</body>
+	</body>
+
 </html>

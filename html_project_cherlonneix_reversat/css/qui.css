@@ -3,7 +3,11 @@
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-around;
-	margin-top: 1em;
+	margin-top: 2em;
+}
+
+.block-base > p{
+	margin: 0.8em 0.3em;
 }
 
 .block-base div{
